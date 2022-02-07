@@ -7,4 +7,15 @@ bool ispal (string s, int i, int j) {
 	return true;
 }
 
-// atcoder question link :   
+
+// another approach :
+
+bool palindrome(string s) {
+	auto p = s;
+	reverse(p.begin(), p.end());
+	if (p == s)
+		return true;
+	else
+		return false;
+}
+
