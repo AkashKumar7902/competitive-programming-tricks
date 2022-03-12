@@ -20,6 +20,7 @@ void method2 (int n) {
   for (ll i = 0; i < 64; ++i) {  // we are iterating through every bit in the largest possible integer.
        if ((1 << i) & n) { // condition to check if the bit at the position denoted by i
            cout << i << " ";          // is set or not.
+                                // the originality of n is not lost by this method. 
        }
   }
   cout << endl;
