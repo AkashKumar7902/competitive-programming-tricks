@@ -1,0 +1,23 @@
+Occurences of a prime number say p in n!
+is given by,
+(n/p) + (n/(p^2)) + (n/(p^3)) + .... (till the condition n >= p^i is satisfied where i is a natural number)
+
+E.g. :
+
+n = 100
+so, 100 !
+
+100 ! = 1 * 2 * 3 * 4 * 5 .... * 10 ..... * 15 ..... * 20 ..... *25 ..... * 50 ..... * 75 ..... * 100
+                        |        |          |          |         |          |          |          |
+                        v        v          v          v         v          v          v          v
+                        5        5 *x      5 * x      5 * x     5^2      5^2 * x    5^2 * x      5^2 * x
+
+
+
+no of occurence of 5 in 100! = 
+floor(100/5) + floor(100/5^2) + floor(100/5^3) +.........(till the condition n >= p^i is satisfied where i is a natural number)
+
+
+Thank You 
+Do star this repository for more such content
+
